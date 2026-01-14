@@ -8,13 +8,17 @@ This project uses the **Chest X-Ray Images (Pneumonia)** dataset from Kaggle:
 
 The dataset is organized into 3 folders (train, test, val) and contains subfolders for each image category (Pneumonia/Normal). There are 5,863 X-Ray images (JPEG) and 2 categories (Pneumonia/Normal). 
 
-+---------+--------+-----------+-------+
-|  Split  | Normal | Pneumonia | Total |
-+---------+--------+-----------+-------+
-| Train   |  1342  |    3876   |  5218 |
-| Val     |    9   |      9    |   18  |
-| Test    |  235   |    391    |  626  |
-+---------+--------+-----------+-------+
+## Dataset Split Summary
+
+| Split | Normal | Pneumonia | Total |
+|------:|-------:|----------:|------:|
+| Train | 1342   | 3876      | 5218  |
+| Val   | 9      | 9         | 18    |
+| Test  | 235    | 391       | 626   |
+
+**Total images:** 5862  
+**Classes:** Normal, Pneumonia
+
 
 
 License: CC BY 4.0
