@@ -31,7 +31,7 @@ You can download it using the Kaggle CLI:
    ```bash
    pip install kaggle
 
-mkdir -p data
+   mkdir -p data
 
 kaggle datasets download -d paultimothymooney/chest-xray-pneumonia \
     -p data/ \
