@@ -33,7 +33,7 @@ You can download it using the Kaggle CLI:
 
    mkdir -p data
 
-kaggle datasets download -d paultimothymooney/chest-xray-pneumonia \
+   kaggle datasets download -d paultimothymooney/chest-xray-pneumonia \
     -p data/ \
     --unzip
     
